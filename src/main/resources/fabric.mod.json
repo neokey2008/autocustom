@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "autoenchantbuy",
+  "version": "${version}",
+  "name": "AutoEnchantBuy",
+  "description": "Compra automática de encantamientos custom (FenyxNetwork)",
+  "authors": [
+    "AutoEnchant"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+  "license": "MIT",
+  "icon": "assets/autoenchantbuy/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.autoenchant.AutoEnchantBuy"
+    ],
+    "client": [
+      "com.autoenchant.AutoEnchantBuyClient"
+    ]
+  },
+  "mixins": [
+    "autoenchantbuy.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "~${minecraft_version}",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
