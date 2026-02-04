@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "com/autoenchant/mixin/GenericContainerScreenMixin": {
+      "render": "Lnet/minecraft/class_476;method_25394(Lnet/minecraft/class_332;IIF)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "com/autoenchant/mixin/GenericContainerScreenMixin": {
+        "render": "Lnet/minecraft/class_476;method_25394(Lnet/minecraft/class_332;IIF)V"
+      }
+    }
+  }
+}
